@@ -1,0 +1,29 @@
+.advantages {
+  padding-bottom: 0;
+
+  &--flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background-color: var(--main-background-color);
+  }
+  &__topic {
+    color: var(--topic-color);
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  &__text {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}

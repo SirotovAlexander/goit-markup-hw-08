@@ -23,3 +23,11 @@
 .footer__list:not(:last-child) {
   margin-bottom: 12px;
 }
+.address-centering {
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -12,6 +12,9 @@
     text-transform: uppercase;
     color: var(--main-background-color-second);
   }
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 }
 
 .footer-form__wrapper {
@@ -20,6 +23,7 @@
   @media screen and (max-width: 767px) {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 20px;
   }
@@ -48,8 +52,10 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
   }
+  @media screen and (max-width: 767px) {
+    width: 480px;
+  }
 }
-
 .footer-form__button {
   display: flex;
   align-items: center;
@@ -68,6 +74,9 @@
 
   &:hover {
     cursor: pointer;
+  }
+  @media screen and (max-width: 767px) {
+    text-align: center;
   }
 }
 .footer-form__img {

@@ -278,6 +278,12 @@ header {
   line-height: 1.7;
 }
 
+@media screen and (max-width: 1199px) {
+  .promo-hidden {
+    display: none;
+  }
+}
+
 .topic-promo {
   text-align: center;
   font-size: 36px;

@@ -1,6 +1,9 @@
 .burger-menu {
-  width: 480px;
-  height: 100%;
+  width: 100%;
+  height: 796px;
+  padding-left: 40px;
+  padding-top: 48px;
+  padding-bottom: 48px;
   background-color: var(--main-background-color-second);
   position: fixed;
   top: 0;
@@ -22,12 +25,10 @@
   }
 }
 .burger-list {
-  padding-left: 40px;
-  padding-top: 48px;
   list-style: none;
 
-  &__item {
-    margin-bottom: 32px;
+  &__item:not(:last-child) {
+    padding-bottom: 32px;
   }
 
   &__nav {
@@ -45,19 +46,18 @@
   }
 }
 .burger-contact {
-  padding-left: 40px;
   padding-top: 306px;
   list-style: none;
 
   &__item--margin {
-    margin-bottom: 32px;
+    padding-bottom: 32px;
   }
 
   &__info {
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
-    line-height: 1.16;
+    line-height: 28px;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: #757575;
@@ -71,34 +71,29 @@
     font-style: normal;
     font-weight: 500;
     font-size: 34px;
-    line-height: 1.17;
+    line-height: 40px;
     letter-spacing: 0.02em;
     color: #2196f3;
   }
 }
 .burger-social {
   padding-top: 64px;
-  padding-left: 40px;
-  padding-bottom: 48px;
   padding-right: 83px;
   text-decoration: none;
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  position: relative;
+  // gap: 20px;
 
-  &__item:not(:last-child):after {
-    content: '';
-    display: inline-block;
-    width: 22px;
-    height: 0px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    transform: rotate(90deg);
-    position: absolute;
-
-    bottom: 56px;
+  &__item {
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+    padding-right: 10px;
+  }
+  &__item:last-child {
+    border: none;
+  }
+  &__item:not(:first-child) {
+    padding-left: 10px;
   }
   &__link {
     font-style: normal;

@@ -510,6 +510,15 @@ header {
           align-items: center;
   gap: 30px;
 }
+@media screen and (max-width: 767px) {
+  .clients__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 
 .clients__item {
   display: -webkit-box;

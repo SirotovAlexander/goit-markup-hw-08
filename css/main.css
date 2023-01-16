@@ -562,13 +562,6 @@ header {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-@media screen and (max-width: 767px) {
-  .footer {
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 480px;
-  }
-}
 .footer__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -590,9 +583,6 @@ header {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-right: 0;
-    margin-left: 0;
-    padding: 0;
   }
 }
 
@@ -605,9 +595,6 @@ header {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -664,9 +651,6 @@ header {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -680,6 +664,16 @@ header {
   gap: 10px;
   margin-top: 20px;
   padding: 0;
+}
+@media screen and (max-width: 767px) {
+  .social-media-list--fix {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .social-media-list__item--theme {
@@ -741,7 +735,7 @@ header {
   color: var(--main-background-color-second);
 }
 @media screen and (max-width: 767px) {
-  .footer-form {
+  .footer-form__lable {
     text-align: center;
   }
 }
@@ -763,9 +757,6 @@ header {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -826,7 +817,8 @@ header {
 }
 @media screen and (max-width: 767px) {
   .footer-form__input {
-    width: 480px;
+    margin: 0;
+    width: 200%;
   }
 }
 
@@ -852,11 +844,6 @@ header {
 }
 .footer-form__button:hover {
   cursor: pointer;
-}
-@media screen and (max-width: 767px) {
-  .footer-form__button {
-    text-align: center;
-  }
 }
 
 .footer-form__img {

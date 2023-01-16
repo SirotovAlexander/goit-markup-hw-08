@@ -28,8 +28,7 @@
     line-height: 1.14;
 
     @media screen and (max-width: 767px) {
-      width: auto;
-      height: 120px;
+      text-align: center;
     }
   }
   &__text {
@@ -37,5 +36,15 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+
+    @media screen and (max-width: 767px) {
+      text-align: justify;
+    }
   }
+}
+.advantages__item:not(:last-child) {
+  padding-bottom: 30px;
+}
+.advantages__item:last-child {
+  padding-bottom: 60px;
 }

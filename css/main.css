@@ -60,7 +60,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 767px) {
   .container {
     width: 480px;
   }
@@ -289,8 +289,7 @@ header {
 }
 @media screen and (max-width: 767px) {
   .advantages__topic {
-    width: auto;
-    height: 120px;
+    text-align: center;
   }
 }
 .advantages__text {
@@ -298,6 +297,19 @@ header {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+}
+@media screen and (max-width: 767px) {
+  .advantages__text {
+    text-align: justify;
+  }
+}
+
+.advantages__item:not(:last-child) {
+  padding-bottom: 30px;
+}
+
+.advantages__item:last-child {
+  padding-bottom: 60px;
 }
 
 @media screen and (max-width: 1199px) {
@@ -371,12 +383,41 @@ header {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
+@media screen and (max-width: 767px) {
+  .team__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 30px;
+  }
+}
 
 .team__card {
   background-color: #ffffff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+@media screen and (max-width: 767px) {
+  .team__card {
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 30px;
+    width: 450px;
+  }
 }
 
 .team__wrapper {
@@ -400,6 +441,12 @@ header {
   line-height: 1.18;
   text-align: center;
   /* padding-bottom: 30px; */
+}
+
+@media screen and (max-width: 767px) {
+  .team__png {
+    width: 450px;
+  }
 }
 
 .social-media-list {

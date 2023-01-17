@@ -467,6 +467,16 @@ header {
     gap: 30px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .team__list {
+    display: grid;
+    grid-template-columns: 354px 354px;
+    row-gap: 30px;
+    -webkit-column-gap: 30px;
+       -moz-column-gap: 30px;
+            column-gap: 30px;
+  }
+}
 
 .team__card {
   background-color: #ffffff;
@@ -517,6 +527,11 @@ header {
     width: 450px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .team__png {
+    width: 354px;
+  }
+}
 
 .social-media-list {
   display: -webkit-box;
@@ -558,6 +573,19 @@ header {
   border-radius: 50%;
 }
 @media screen and (max-width: 767px) {
+  .social-media-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .social-media-list {
     display: -webkit-box;
     display: -ms-flexbox;

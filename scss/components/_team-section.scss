@@ -21,6 +21,12 @@
       align-items: center;
       gap: 30px;
     }
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      display: grid;
+      grid-template-columns: 354px 354px;
+      row-gap: 30px;
+      column-gap: 30px;
+    }
   }
 }
 
@@ -62,5 +68,8 @@
 .team__png {
   @media screen and (max-width: 767px) {
     width: 450px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 354px;
   }
 }

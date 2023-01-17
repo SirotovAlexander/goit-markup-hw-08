@@ -8,6 +8,11 @@
     @media screen and (max-width: 767px) {
       display: block;
     }
+
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+    }
   }
   &__icon {
     display: flex;
@@ -19,6 +24,10 @@
     background-color: var(--main-background-color);
     @media screen and (max-width: 767px) {
       width: auto;
+      height: 120px;
+    }
+    @media screen and (min-width: 768px) {
+      width: 354px;
       height: 120px;
     }
   }
@@ -40,6 +49,12 @@
     @media screen and (max-width: 767px) {
       text-align: justify;
     }
+  }
+}
+.advantages__item {
+  @media screen and (min-width: 768px) {
+    width: 354px;
+    height: 120px;
   }
 }
 .advantages__item:not(:last-child) {

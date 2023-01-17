@@ -4,6 +4,11 @@
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     height: 1285px;
   }
+
+  @media screen and (max-width: 1199px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   &__logo {
     color: var(--topic-color);
     font-size: 36px;

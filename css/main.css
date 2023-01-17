@@ -287,6 +287,12 @@ header {
     height: 600px;
   }
 }
+@media screen and (max-width: 1199px) {
+  .advantages {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 .advantages--flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -444,6 +450,12 @@ header {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .team {
     height: 1285px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .team {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 .team__logo {
@@ -637,6 +649,15 @@ header {
         flex-wrap: wrap;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .clients__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 
 .clients__item {
   display: -webkit-box;
@@ -674,10 +695,23 @@ header {
   border-radius: 4px;
   outline: #2196f3;
 }
-
+@media screen and (max-width: 767px) {
+  .clients__link {
+    width: 210px;
+    height: 92px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .clients__link {
+    width: 226px;
+    height: 92px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
   .clients--fix {
-    height: 397px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 

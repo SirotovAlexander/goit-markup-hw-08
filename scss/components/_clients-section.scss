@@ -17,6 +17,11 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 .clients__item {
   display: flex;
@@ -41,9 +46,18 @@
     border-radius: 4px;
     outline: #2196f3;
   }
+  @media screen and (max-width: 767px) {
+    width: 210px;
+    height: 92px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 226px;
+    height: 92px;
+  }
 }
 .clients--fix {
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    height: 397px;
+  @media screen and (max-width: 1199px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }

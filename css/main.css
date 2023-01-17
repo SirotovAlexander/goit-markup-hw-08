@@ -743,8 +743,39 @@ header {
             align-items: center;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-left: 76px;
+    padding-right: 89px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-column-gap: 165px;
+       -moz-column-gap: 165px;
+            column-gap: 165px;
+  }
+}
 
 @media screen and (max-width: 767px) {
+  .footer__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -801,6 +832,20 @@ header {
 }
 
 @media screen and (max-width: 767px) {
+  .address-centering {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .address-centering {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -873,7 +918,7 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .link-footer-logo {
     text-align: center;
   }
@@ -897,7 +942,7 @@ header {
   text-transform: uppercase;
   color: var(--main-background-color-second);
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .footer-form__lable {
     text-align: center;
   }
@@ -912,6 +957,21 @@ header {
           align-items: center;
 }
 @media screen and (max-width: 767px) {
+  .footer-form__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-form__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -982,6 +1042,12 @@ header {
   .footer-form__input {
     margin: 0;
     width: 480px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-form__input {
+    margin: 0;
+    width: 450px;
   }
 }
 

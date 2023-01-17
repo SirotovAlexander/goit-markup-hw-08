@@ -1358,6 +1358,17 @@ header {
           justify-content: center;
   gap: 8px;
 }
+@media screen and (max-width: 767px) {
+  .filter-button {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 8px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding-right: 52px;
+  }
+}
 .filter-button__item {
   background-color: var(--main-background-color);
   color: var(--topic-color);
@@ -1573,4 +1584,11 @@ header {
   letter-spacing: 0.02em;
   color: #2196f3;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1199px) {
+  .portfolio-section--fix {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -4,6 +4,13 @@
   justify-content: center;
   gap: 8px;
 
+  @media screen and (max-width: 767px) {
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: flex-start;
+    padding-right: 52px;
+  }
+
   &__item {
     background-color: var(--main-background-color);
     color: var(--topic-color);

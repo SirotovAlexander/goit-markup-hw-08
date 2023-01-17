@@ -1,5 +1,8 @@
 .footer-form {
   margin-left: 23px;
+  @media screen and (max-width: 767px) {
+    margin: 0;
+  }
 
   &__lable {
     display: block;
@@ -53,7 +56,7 @@
   }
   @media screen and (max-width: 767px) {
     margin: 0;
-    width: 200%;
+    width: 480px;
   }
 }
 .footer-form__button {

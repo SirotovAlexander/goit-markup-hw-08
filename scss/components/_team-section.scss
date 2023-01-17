@@ -1,7 +1,7 @@
 .team {
   background-color: var(--main-background-color);
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     height: 1285px;
   }
   &__logo {

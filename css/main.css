@@ -79,6 +79,11 @@ img {
 header {
   background-color: var(--main-background-color-second);
 }
+@media screen and (max-width: 767px) {
+  header {
+    margin: 0;
+  }
+}
 
 .header--flex {
   display: -webkit-box;
@@ -269,6 +274,11 @@ header {
 .advantages {
   padding-bottom: 0;
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .advantages {
+    height: 600px;
+  }
+}
 .advantages--flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -285,7 +295,12 @@ header {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .advantages--flex {
-    height: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
   }
 }
 .advantages__icon {
@@ -304,6 +319,12 @@ header {
   background-color: var(--main-background-color);
 }
 @media screen and (max-width: 767px) {
+  .advantages__icon {
+    width: auto;
+    height: 120px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .advantages__icon {
     width: auto;
     height: 120px;
@@ -331,12 +352,28 @@ header {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .advantages__item {
+    width: 354px;
+  }
+}
+
 .advantages__item:not(:last-child) {
   padding-bottom: 30px;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .advantages__item:not(:last-child) {
+    padding: 0;
+  }
 }
 
 .advantages__item:last-child {
   padding-bottom: 60px;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .advantages__item:last-child {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 1199px) {
@@ -600,6 +637,12 @@ header {
   border: 1px solid #2196f3;
   border-radius: 4px;
   outline: #2196f3;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .clients--fix {
+    height: 397px;
+  }
 }
 
 .footer {

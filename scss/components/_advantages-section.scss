@@ -8,10 +8,8 @@
     @media screen and (max-width: 767px) {
       display: block;
     }
-
     @media screen and (min-width: 768px) {
-      display: flex;
-      flex-wrap: wrap;
+      height: 600px;
     }
   }
   &__icon {
@@ -24,10 +22,6 @@
     background-color: var(--main-background-color);
     @media screen and (max-width: 767px) {
       width: auto;
-      height: 120px;
-    }
-    @media screen and (min-width: 768px) {
-      width: 354px;
       height: 120px;
     }
   }
@@ -52,10 +46,6 @@
   }
 }
 .advantages__item {
-  @media screen and (min-width: 768px) {
-    width: 354px;
-    height: 120px;
-  }
 }
 .advantages__item:not(:last-child) {
   padding-bottom: 30px;

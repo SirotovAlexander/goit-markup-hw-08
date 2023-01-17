@@ -229,6 +229,11 @@ header {
   max-width: 1600px;
   margin: 0 auto;
 }
+@media screen and (max-width: 1199px) {
+  .hero {
+    width: 400px;
+  }
+}
 .hero__logo {
   color: var(--main-background-color);
   font-family: "Roboto";
@@ -280,11 +285,7 @@ header {
 }
 @media screen and (min-width: 768px) {
   .advantages--flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    height: 600px;
   }
 }
 .advantages__icon {
@@ -308,12 +309,6 @@ header {
     height: 120px;
   }
 }
-@media screen and (min-width: 768px) {
-  .advantages__icon {
-    width: 354px;
-    height: 120px;
-  }
-}
 .advantages__topic {
   color: var(--topic-color);
   font-size: 14px;
@@ -333,13 +328,6 @@ header {
 @media screen and (max-width: 767px) {
   .advantages__text {
     text-align: justify;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .advantages__item {
-    width: 354px;
-    height: 120px;
   }
 }
 
@@ -407,6 +395,11 @@ header {
 
 .team {
   background-color: var(--main-background-color);
+}
+@media screen and (min-width: 768px) {
+  .team {
+    height: 1285px;
+  }
 }
 .team__logo {
   color: var(--topic-color);

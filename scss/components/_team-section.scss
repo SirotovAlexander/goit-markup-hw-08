@@ -1,6 +1,9 @@
 .team {
   background-color: var(--main-background-color);
 
+  @media screen and (min-width: 768px) {
+    height: 1285px;
+  }
   &__logo {
     color: var(--topic-color);
     font-size: 36px;

@@ -542,14 +542,9 @@ header {
   /* padding-bottom: 30px; */
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .team__png {
-    width: 450px;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .team__png {
-    width: 354px;
+    width: 100%;
   }
 }
 

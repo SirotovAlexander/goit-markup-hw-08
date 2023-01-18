@@ -4,11 +4,23 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    justify-content: flex-start;
+  }
 }
 
 .portfolio__item {
   width: 370px;
   border: 1px solid #eeeeee;
+
+  @media screen and (max-width: 767px) {
+    width: 450px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 354px;
+  }
 }
 
 .portfolio__link {
@@ -53,6 +65,10 @@
 
   background-color: rgba(33, 150, 243, 0.9);
   padding: 63px 24px;
+
+  @media screen and (max-width: 767px) {
+    height: 100%;
+  }
 }
 .portfolio__description {
   font-weight: 400;

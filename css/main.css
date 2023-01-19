@@ -589,12 +589,6 @@ header {
   /* padding-bottom: 30px; */
 }
 
-@media screen and (max-width: 1199px) {
-  .team__png {
-    width: 100%;
-  }
-}
-
 .social-media-list {
   display: -webkit-box;
   display: -ms-flexbox;

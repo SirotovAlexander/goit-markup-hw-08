@@ -1553,18 +1553,21 @@ header {
   left: 0;
   display: none;
 }
-.burger-menu__close-svg {
+
+.burger-menu__button {
   position: absolute;
   top: 0;
   right: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
   padding-top: 21px;
   padding-right: 25px;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.burger-menu__close-svg:hover, .burger-menu__close-svg:focus {
+.burger-menu__button:hover, .burger-menu__button:focus {
   fill: var(--button-color);
-  cursor: pointer;
 }
 
 .burger-list {

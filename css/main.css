@@ -1481,6 +1481,12 @@ header {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .portfolio__img {
+    width: 450px;
+  }
+}
+
 .portfolio__link {
   display: block;
   text-decoration: none;

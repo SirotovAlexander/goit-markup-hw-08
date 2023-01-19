@@ -23,6 +23,11 @@
   }
 }
 
+.portfolio__img {
+  @media screen and (max-width: 767px) {
+    width: 450px;
+  }
+}
 .portfolio__link {
   display: block;
   text-decoration: none;

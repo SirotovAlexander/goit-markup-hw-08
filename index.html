@@ -212,7 +212,17 @@
               </div>
             </li>
             <li class="team__card">
-              <img class="team__png" src="./images/member2.jpg" alt="Другий член команди" />
+              <img
+                class="team__png"
+                srcset="
+                  ./images/member2-270.jpg 270w,
+                  ./images/member2-354.jpg 354w,
+                  ./images/member2-450.jpg 450w
+                "
+                sizes="(min-width: 480px) 450px, (min-width: 780px) 354px, (min-width: 1200) 270px)"
+                src="./images/member2-270.jpg"
+                alt="Другий член команди"
+              />
               <div class="team__wrapper">
                 <h3 class="team__topic">Ольга Рєпіна</h3>
                 <p lang="en" class="team__text">Frontend Developer</p>
@@ -245,7 +255,17 @@
               </div>
             </li>
             <li class="team__card">
-              <img class="team__png" src="./images/member3.jpg" alt="Третій член команди" />
+              <img
+                class="team__png"
+                srcset="
+                  ./images/member3-270.jpg 270w,
+                  ./images/member3-354.jpg 354w,
+                  ./images/member3-450.jpg 450w
+                "
+                sizes="(min-width: 480px) 450px, (min-width: 780px) 354px, (min-width: 1200) 270px)"
+                src="./images/member3-270.jpg"
+                alt="Третій член команди"
+              />
               <div class="team__wrapper">
                 <h3 class="team__topic">Микола Тарасов</h3>
                 <p lang="en" class="team__text">Marketing</p>
@@ -278,7 +298,17 @@
               </div>
             </li>
             <li class="team__card">
-              <img class="team__png" src="./images/member4.jpg" alt="Четвертий член команди" />
+              <img
+                class="team__png"
+                srcset="
+                  ./images/member4-270.jpg 270w,
+                  ./images/member4-354.jpg 354w,
+                  ./images/member4-450.jpg 450w
+                "
+                sizes="(min-width: 480px) 450px, (min-width: 780px) 354px, (min-width: 1200) 270px)"
+                src="./images/member4-270.jpg"
+              />
+
               <div class="team__wrapper">
                 <h3 class="team__topic">Михайло Єрмаков</h3>
                 <p lang="en" class="team__text">UI Designer</p>
@@ -498,7 +528,7 @@
     <!-- BURGER-MENUE -->
     <div class="burger-menu js-menu-container">
       <button class="burger-menu__button js-close-menu" type="button">
-        <svg class="burger-menu__close-svg" width="60" height="60">
+        <svg class="burger-menu__close-svg" width="40" height="40">
           <use href="./images/icons.svg#icon-burger-close"></use>
         </svg>
       </button>

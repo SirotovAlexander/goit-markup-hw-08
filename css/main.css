@@ -1155,13 +1155,23 @@ header {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 767px) {
   .modal {
     width: 450px;
     max-height: 609px;
     overflow: auto;
     top: 33%;
     left: 50%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .modal {
+    width: 450px;
+    max-height: 610px;
+    overflow: auto;
+    top: 38%;
+    left: 50%;
+    overflow: visible;
   }
 }
 .modal__button {
@@ -1365,6 +1375,11 @@ header {
   width: 16px;
   height: 15px;
   cursor: pointer;
+}
+@media screen and (max-width: 1199px) {
+  .checkbox input {
+    left: 0;
+  }
 }
 
 .checkbox label {

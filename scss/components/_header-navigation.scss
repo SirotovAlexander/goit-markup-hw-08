@@ -40,9 +40,13 @@
   background: var(--button-color);
   border-radius: 2px;
 }
-.open-button {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+.open-burger__button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
     fill: var(--button-color);

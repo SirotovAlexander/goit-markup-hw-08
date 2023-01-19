@@ -164,16 +164,20 @@ header {
   border-radius: 2px;
 }
 
-.open-button {
+.open-burger__button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.open-button:hover, .open-button:focus {
+.open-burger__button:hover, .open-burger__button:focus {
   fill: var(--button-color);
   cursor: pointer;
 }
 @media screen and (min-width: 768px) {
-  .open-button {
+  .open-burger__button {
     display: none;
   }
 }

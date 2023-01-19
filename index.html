@@ -168,10 +168,14 @@
             <li class="team__card">
               <img
                 class="team__png"
-                src="./images/member1.jpg"
+                srcset="
+                  ./images/member1-270.jpg 270w,
+                  ./images/member1-354.jpg 354w,
+                  ./images/member1-450.jpg 450w
+                "
+                sizes="(min-width: 480px) 450px, (min-width: 780px) 354px, (min-width: 1200) 270px)"
+                src="./images/member1-270.jpg"
                 alt="Перший член команди"
-                width="270"
-                height="260"
               />
               <div class="team__wrapper">
                 <h3 class="team__topic">Ігор Дем'яненко</h3>
@@ -205,13 +209,7 @@
               </div>
             </li>
             <li class="team__card">
-              <img
-                class="team__png"
-                src="./images/member2.jpg"
-                alt="Другий член команди"
-                width="270"
-                height="260"
-              />
+              <img class="team__png" src="./images/member2.jpg" alt="Другий член команди" />
               <div class="team__wrapper">
                 <h3 class="team__topic">Ольга Рєпіна</h3>
                 <p lang="en" class="team__text">Frontend Developer</p>
@@ -244,13 +242,7 @@
               </div>
             </li>
             <li class="team__card">
-              <img
-                class="team__png"
-                src="./images/member3.jpg"
-                alt="Третій член команди"
-                width="270"
-                height="260"
-              />
+              <img class="team__png" src="./images/member3.jpg" alt="Третій член команди" />
               <div class="team__wrapper">
                 <h3 class="team__topic">Микола Тарасов</h3>
                 <p lang="en" class="team__text">Marketing</p>
@@ -283,13 +275,7 @@
               </div>
             </li>
             <li class="team__card">
-              <img
-                class="team__png"
-                src="./images/member4.jpg"
-                alt="Четвертий член команди"
-                width="270"
-                height="260"
-              />
+              <img class="team__png" src="./images/member4.jpg" alt="Четвертий член команди" />
               <div class="team__wrapper">
                 <h3 class="team__topic">Михайло Єрмаков</h3>
                 <p lang="en" class="team__text">UI Designer</p>

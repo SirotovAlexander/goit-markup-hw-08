@@ -19,6 +19,7 @@
   &__list {
     display: flex;
     justify-content: space-around;
+    gap: 30px;
 
     @media screen and (max-width: 767px) {
       display: flex;

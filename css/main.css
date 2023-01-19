@@ -518,6 +518,7 @@ header {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  gap: 30px;
 }
 @media screen and (max-width: 767px) {
   .team__list {

@@ -34,9 +34,12 @@
             <li><a href="#" class="nav-links__item fix-link">Контакти</a></li>
           </ul>
         </nav>
-        <svg class="open-button" width="40" height="40">
-          <use href="./images/icons.svg#icon-open-menu"></use>
-        </svg>
+        <button class="open-burger__button js-open-menu" type="button">
+          <svg class="open-button" width="40" height="40">
+            <use href="./images/icons.svg#icon-open-menu"></use>
+          </svg>
+        </button>
+
         <ul class="list header-contacts">
           <li>
             <a href="mailto:info@devstudio.com" class="header-contacts__link"
@@ -493,10 +496,12 @@
       </div>
     </div>
     <!-- BURGER-MENUE -->
-    <div class="burger-menu">
-      <svg class="burger-menu__close-svg" width="60" height="60">
-        <use href="./images/icons.svg#icon-burger-close"></use>
-      </svg>
+    <div class="burger-menu js-menu-container">
+      <button class="burger-menu__button js-close-menu" type="button">
+        <svg class="burger-menu__close-svg" width="60" height="60">
+          <use href="./images/icons.svg#icon-burger-close"></use>
+        </svg>
+      </button>
       <ul class="burger-list list">
         <li class="burger-list__item"><a class="burger-list__nav" href="index.html">Студія</a></li>
         <li class="burger-list__item">
@@ -521,7 +526,7 @@
         <li class="burger-social__item"><a class="burger-social__link" href="#">LinkedIn</a></li>
       </ul>
     </div>
-
+    <script src="./JS/mobile-menu.js"></script>
     <script src="./JS/modal.js"></script>
   </body>
 </html>

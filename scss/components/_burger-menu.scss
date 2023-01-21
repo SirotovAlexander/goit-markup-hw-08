@@ -47,6 +47,7 @@
     text-decoration: none;
     font-weight: 500;
     font-size: 40px;
+
     line-height: 1.17;
     letter-spacing: 0.02em;
     color: #212121;
@@ -68,6 +69,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
+
     line-height: 28px;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -107,13 +109,14 @@
   &__item:last-child {
     border: none;
   }
-  &__item:not(:first-child) {
-    // padding-left: 10px;
-  }
+  // &__item:not(:first-child) {
+  //   // padding-left: 10px;
+  // }
   &__link {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
+
     line-height: 22px;
     letter-spacing: 0.02em;
 
@@ -123,5 +126,4 @@
 }
 .burger-menu.is-open {
   transform: translateX(0);
-  // display: block;
 }
